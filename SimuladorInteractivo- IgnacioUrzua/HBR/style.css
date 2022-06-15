@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	width: 980px;
+	margin: 50px auto;
+	width: 100%;
+}
+
+button {
+	background: rgb(219, 159, 159);
+	padding: 10px 25px;
+	margin-bottom: 15px;
+}
+
+.title {
+	text-align: center;
+	font-size: 40px;
+}
+
+img {
+	width: 180px;
+}
+
+body {
+	background-color: #013a8aaf;
+}
+
+.header {
+	background-color: #290648;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.header p {
+	font-family: arial;
+	font-size: 18px;
+	color: #fff;
+	padding-bottom: 4px;
+}
+
+.header h2 {
+	font-size: 30px;
+	color: #f8b700;
+}
+
+.interfaz {
+	padding: 0;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #441b68;
+}
+
+.interfaz a {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.interfaz img {
+	width: 120px;
+	height: 120px;
+}
+
+.interfaz div {
+	width: 220px;
+	padding: 0 10px 0 20px;
+	background-color: #271377;
+}
+
+.interfaz a:hover div {
+	background-color: #3c1d3d;
+}
+
+.interfaz h3 {
+	font-size: 22px;
+	color: #2fa233;
+	padding: 12px 0 4px;
+}
+
+.interfaz p {
+	font-family: arial;
+	font-size: 12px;
+	color: #d5c8af;
+	line-height: 20px;
+}
+
+.btn-prebatalla {
+	width: 100% !important;
+}
+
+.acciones {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.acciones a {
+	width: 33.33%;
+	padding: 10px 0px;
+	text-align: center;
+	font-size: 14px;
+	font-family: arial;
+	color: #1b1b1b;
+}
+
+.acciones a:nth-of-type(1) {
+	background-color: #ff0000;
+}
+
+.acciones a:nth-of-type(2) {
+	background-color: #116821;
+}
+
+.acciones a:hover {
+	opacity: 0.9;
+}
+
+.campoDeBatalla {
+	width: 100%;
+	height: 600px;
+	background-color: #1d373d;
+	background-image: url("imagenes/campodebatalla.PNG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background: size 100px;
+	visibility: hidden;
+}
+
+.enemigo {
+	padding: 0;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #e0e681;
+}
+
+.enemigo a {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.enemigo img {
+	width: 120px;
+	height: 120px;
+}
+
+.enemigo div {
+	width: 220px;
+	padding: 0 10px 0 20px;
+	background-color: #874c33;
+}
+
+.enemigo h3 {
+	font-size: 22px;
+	color: #f8b700;
+	padding: 12px 0 4px;
+}
+
+.enemigo p {
+	font-family: arial;
+	font-size: 12px;
+	color: #d5c8af;
+	line-height: 20px;
+}

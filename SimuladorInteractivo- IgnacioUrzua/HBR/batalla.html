@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heroes Battle Realm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="titulo">
+        <h2>Elige tu Heroe!</h2>
+    </div>
+
+    <div class="interfaz">
+        <a href="#" onclick="gestorjuego.iniciarJuego('Arquero')">
+            <img src="imagenes/heroes/Arquero.PNG" alt="Arquero">
+            <div>
+                <h3>Arquero</h3>
+                <p>Ataca desde lejos con poco daño pero alta probabilidad de golpe critico(x2).</p>
+            </div>    
+        </a>
+        <a href="#" onclick="gestorjuego.iniciarJuego('Bombardero')">
+            <img src="imagenes/heroes/bombardero.PNG" alt="Bombardero">
+            <div>
+                <h3>Bombardero</h3>
+                <p>Ataca desde lejos con alto daño pero posee muy poca energia.</p>
+            </div>    
+        </a>
+        <a href="#" onclick="gestorjuego.iniciarJuego('Emboscador')">
+            <img src="imagenes/heroes/emboscador.PNG" alt="Emboscador">
+            <div>
+                <h3>Emboscador</h3>
+                <p>Asesta golpes criticos(x2) como ninguna otra unidad.</p>
+            </div>    
+        </a>
+        <a href="#" onclick="gestorjuego.iniciarJuego('Espadachin')">
+            <img src="imagenes/heroes/espadachin.PNG" alt="Espadachin">
+            <div>
+                <h3>Espadachin</h3>
+                <p>Combate cuerpo a cuerpo, es una unidad sin fortalezas ni debilidades.</p>
+            </div>    
+        </a>
+        <a href="#" onclick="gestorjuego.iniciarJuego('Mago')">
+            <img src="imagenes/heroes/mago.PNG" alt="Mago">
+            <div>
+                <h3>Mago</h3>
+                <p>Utiliza todo su poder en sus ataques ofensivos.</p>
+            </div>    
+        </a>
+        <a href="#" onclick="gestorjuego.iniciarJuego('Tanque')">
+            <img src="imagenes/heroes/tanque.PNG" alt="Tanque">
+            <div>
+                <h3>Tanque</h3>
+                <p>Posee gran cantidad de energia y se especializa en resistir los ataques.</p>
+            </div>    
+        </a>
+    </div>
+
+    <div class="acciones">
+
+    </div>
+
+    <div class="campoDeBatalla">
+
+    </div>
+    
+    <div class="enemigo">
+
+    </div>
+
+    <script src="gestorjuego.js"></script>
+    <script src="heroe.js"></script>
+    <script src="enemigo.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
